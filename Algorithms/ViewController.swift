@@ -15,6 +15,14 @@ class ViewController: UIViewController {
         binaryTree()
     }
     
+    fileprivate func dictionaryExample() {
+        var dictionary = Dictionary<String, String>(capacity: 5)
+        dictionary["firstName"] = "Steve"   // insert
+        _ = dictionary["firstName"]     // lookup
+        dictionary["firstName"] = "Tim"     // update
+        dictionary["firstName"] = nil       // delete
+    }
+    
     fileprivate func stackExample() {
         var stack = Stack<String>()
         stack.push("Hello World!")

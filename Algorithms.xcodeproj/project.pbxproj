@@ -22,6 +22,7 @@
 		F2BF58A71E83D5600039E243 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BF58A61E83D5600039E243 /* TreeNode.swift */; };
 		F2BF58AC1E840D030039E243 /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BF58AB1E840D030039E243 /* BinarySearchTree.swift */; };
 		F2BF58AF1E8414F60039E243 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BF58AE1E8414F60039E243 /* BinaryTree.swift */; };
+		F2BF58B11E841E3B0039E243 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BF58B01E841E3B0039E243 /* Dictionary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		F2BF58A61E83D5600039E243 /* TreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		F2BF58AB1E840D030039E243 /* BinarySearchTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinarySearchTree.swift; sourceTree = "<group>"; };
 		F2BF58AE1E8414F60039E243 /* BinaryTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
+		F2BF58B01E841E3B0039E243 /* Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 				F28BE6311E718F9F0031D541 /* Stack */,
 				F28BE6341E718FEB0031D541 /* Queue */,
 				F28BE6371E719B8E0031D541 /* Linked List */,
+				F2BF58B21E841E3D0039E243 /* Dictionary */,
 				F2BF58A51E83D4D00039E243 /* Tree */,
 				F2BF58A81E83DCC40039E243 /* Binary Tree */,
 				F2BF58AD1E840D060039E243 /* Binary Search Tree */,
@@ -189,6 +192,14 @@
 				F2BF58AB1E840D030039E243 /* BinarySearchTree.swift */,
 			);
 			name = "Binary Search Tree";
+			sourceTree = "<group>";
+		};
+		F2BF58B21E841E3D0039E243 /* Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				F2BF58B01E841E3B0039E243 /* Dictionary.swift */,
+			);
+			name = Dictionary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +277,7 @@
 				F28BE63C1E71B2580031D541 /* MergeSort.swift in Sources */,
 				F2BF58AF1E8414F60039E243 /* BinaryTree.swift in Sources */,
 				F2BF58A71E83D5600039E243 /* TreeNode.swift in Sources */,
+				F2BF58B11E841E3B0039E243 /* Dictionary.swift in Sources */,
 				F2BF58AC1E840D030039E243 /* BinarySearchTree.swift in Sources */,
 				F28BE6221E718F7E0031D541 /* ViewController.swift in Sources */,
 				F28BE6331E718FA90031D541 /* Stack.swift in Sources */,
