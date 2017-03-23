@@ -12,8 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        //linkedListExample()
-        mergeSortExample()
+        treeExample()
     }
     
     fileprivate func stackExample() {
@@ -29,6 +28,20 @@ class ViewController: UIViewController {
         print("pop: \(stack.pop())")
         print("pop: \(stack.pop())")
         print("is empty: \(stack.isEmpty)")
+        print("-----------------")
+        print("\n")
+    }
+    
+    fileprivate func treeExample() {
+        let beverages = TreeNode(value: "beverages")
+        let hotBeverages = TreeNode(value: "hot")
+        let coldBeverages = TreeNode(value: "cold")
+        let cocacola = TreeNode(value: "coca cola")
+        beverages.addChild(child: hotBeverages)
+        beverages.addChild(child: coldBeverages)
+        coldBeverages.addChild(child: cocacola)
+        print("----- TREE -----")
+        print("Tree: {\(beverages)}")
         print("-----------------")
         print("\n")
     }

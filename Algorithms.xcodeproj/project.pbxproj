@@ -19,6 +19,7 @@
 		F28BE6361E718FFD0031D541 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28BE6351E718FFD0031D541 /* Queue.swift */; };
 		F28BE6391E719BA30031D541 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28BE6381E719BA30031D541 /* LinkedList.swift */; };
 		F28BE63C1E71B2580031D541 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28BE63B1E71B2580031D541 /* MergeSort.swift */; };
+		F2BF58A71E83D5600039E243 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BF58A61E83D5600039E243 /* TreeNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		F28BE6351E718FFD0031D541 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		F28BE6381E719BA30031D541 /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		F28BE63B1E71B2580031D541 /* MergeSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
+		F2BF58A61E83D5600039E243 /* TreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,13 +78,8 @@
 		F28BE6131E718F7E0031D541 = {
 			isa = PBXGroup;
 			children = (
-				F23D6FD01E71D94200991EA1 /* Shell Sort */,
-				F23D6FCF1E71D93A00991EA1 /* Selection Sort */,
-				F23D6FCE1E71D93100991EA1 /* Insertion Sort */,
-				F28BE63A1E71B1B00031D541 /* Merge Sort */,
-				F28BE6341E718FEB0031D541 /* Queue */,
-				F28BE6311E718F9F0031D541 /* Stack */,
-				F28BE6371E719B8E0031D541 /* Linked List */,
+				F2BF58A91E83DCEA0039E243 /* Data Structures */,
+				F2BF58AA1E83DD060039E243 /* Sorting Algorithms */,
 				F28BE61E1E718F7E0031D541 /* Examples */,
 				F28BE61D1E718F7E0031D541 /* Products */,
 			);
@@ -140,6 +137,44 @@
 				F28BE63B1E71B2580031D541 /* MergeSort.swift */,
 			);
 			name = "Merge Sort";
+			sourceTree = "<group>";
+		};
+		F2BF58A51E83D4D00039E243 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				F2BF58A61E83D5600039E243 /* TreeNode.swift */,
+			);
+			name = Tree;
+			sourceTree = "<group>";
+		};
+		F2BF58A81E83DCC40039E243 /* Binary Tree */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Binary Tree";
+			sourceTree = "<group>";
+		};
+		F2BF58A91E83DCEA0039E243 /* Data Structures */ = {
+			isa = PBXGroup;
+			children = (
+				F28BE6311E718F9F0031D541 /* Stack */,
+				F28BE6341E718FEB0031D541 /* Queue */,
+				F28BE6371E719B8E0031D541 /* Linked List */,
+				F2BF58A51E83D4D00039E243 /* Tree */,
+				F2BF58A81E83DCC40039E243 /* Binary Tree */,
+			);
+			name = "Data Structures";
+			sourceTree = "<group>";
+		};
+		F2BF58AA1E83DD060039E243 /* Sorting Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				F23D6FCF1E71D93A00991EA1 /* Selection Sort */,
+				F23D6FCE1E71D93100991EA1 /* Insertion Sort */,
+				F28BE63A1E71B1B00031D541 /* Merge Sort */,
+				F23D6FD01E71D94200991EA1 /* Shell Sort */,
+			);
+			name = "Sorting Algorithms";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F28BE63C1E71B2580031D541 /* MergeSort.swift in Sources */,
+				F2BF58A71E83D5600039E243 /* TreeNode.swift in Sources */,
 				F28BE6221E718F7E0031D541 /* ViewController.swift in Sources */,
 				F28BE6331E718FA90031D541 /* Stack.swift in Sources */,
 				F23D6FD21E71D95200991EA1 /* InsertionSort.swift in Sources */,
